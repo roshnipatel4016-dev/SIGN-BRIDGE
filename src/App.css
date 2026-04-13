@@ -1,0 +1,38 @@
+import { useState } from "react";
+import LoginRegister from './LoginRegister';
+import Dashboard from './Dashboard';
+import AdminPanel from './AdminPanel';
+import Profile from './Profile';
+import Quiz from './Quiz';
+import Leaderboard from './Leaderboard';
+import SignDetector from './SignDetector';
+import Chat from './Chat';
+import Analytics from './Analytics';
+import Dictionary from './Dictionary';
+
+function App() {
+  const [token] = useState(localStorage.getItem("token"));
+  const [page, setPage] = useState("dashboard");
+
+  if (!token) return <LoginRegister />;
+  if (page === "admin") return <AdminPanel onBack={() => setPage("dashboard")} />;
+  if (page === "profile") return <Profile onBack={() => setPage("dashboard")} />;
+  if (page === "quiz") return <Quiz onBack={() => setPage("dashboard")} />;
+  if (page === "leaderboard") return <Leaderboard onBack={() => setPage("dashboard")} />;
+  if (page === "detector") return <SignDetector onBack={() => setPage("dashboard")} />;
+  if (page === "chat") return <Chat onBack={() => setPage("dashboard")} />;
+  if (page === "analytics") return <Analytics onBack={() => setPage("dashboard")} />;
+  if (page === "dictionary") return <Dictionary onBack={() => setPage("dashboard")} />;
+  return <Dashboard 
+    onAdmin={() => setPage("admin")} 
+    onProfile={() => setPage("profile")} 
+    onQuiz={() => setPage("quiz")} 
+    onLeaderboard={() => setPage("leaderboard")} 
+    onDetector={() => setPage("detector")} 
+    onChat={() => setPage("chat")} 
+    onAnalytics={() => setPage("analytics")}
+    onDictionary={() => setPage("dictionary")}
+  />;
+}
+
+export default App;
