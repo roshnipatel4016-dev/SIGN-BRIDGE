@@ -2,7 +2,7 @@
   "name": "sign3-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://roshni.github.io/sign-bridge",
+  "homepage": "https://roshnipatel4016-dev.github.io/SIGN-BRIDGE",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

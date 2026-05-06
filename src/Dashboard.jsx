@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import LessonDetail from "./LessonDetail";
 import { ISL_LESSONS } from './lessonsData';
 
-const API = "http://localhost:5000/api";
+const API = "https://sign-bridge-jfwz.onrender.com/api";
 
 export default function Dashboard({ onAdmin, onProfile, onQuiz, onLeaderboard, onDetector, onChat, onAnalytics, onDictionary, onChallenge, onCertificate, darkMode, toggleDarkMode }) {
   const [user, setUser] = useState(null);
