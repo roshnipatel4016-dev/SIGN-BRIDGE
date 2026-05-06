@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sign-bridge/static/css/main.e6c13ad2.css",
-    "main.js": "/sign-bridge/static/js/main.0a219a0c.js",
+    "main.js": "/sign-bridge/static/js/main.09ccc323.js",
     "static/js/453.2cd0751c.chunk.js": "/sign-bridge/static/js/453.2cd0751c.chunk.js",
     "index.html": "/sign-bridge/index.html",
     "main.e6c13ad2.css.map": "/sign-bridge/static/css/main.e6c13ad2.css.map",
-    "main.0a219a0c.js.map": "/sign-bridge/static/js/main.0a219a0c.js.map",
+    "main.09ccc323.js.map": "/sign-bridge/static/js/main.09ccc323.js.map",
     "453.2cd0751c.chunk.js.map": "/sign-bridge/static/js/453.2cd0751c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0a219a0c.js"
+    "static/js/main.09ccc323.js"
   ]
 }
