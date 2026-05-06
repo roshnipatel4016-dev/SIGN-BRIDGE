@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sign-bridge/static/css/main.e6c13ad2.css",
-    "main.js": "/sign-bridge/static/js/main.09ccc323.js",
-    "static/js/453.2cd0751c.chunk.js": "/sign-bridge/static/js/453.2cd0751c.chunk.js",
-    "index.html": "/sign-bridge/index.html",
-    "main.e6c13ad2.css.map": "/sign-bridge/static/css/main.e6c13ad2.css.map",
-    "main.09ccc323.js.map": "/sign-bridge/static/js/main.09ccc323.js.map",
-    "453.2cd0751c.chunk.js.map": "/sign-bridge/static/js/453.2cd0751c.chunk.js.map"
+    "main.css": "/SIGN-BRIDGE/static/css/main.e6c13ad2.css",
+    "main.js": "/SIGN-BRIDGE/static/js/main.34a90e49.js",
+    "static/js/453.2cd0751c.chunk.js": "/SIGN-BRIDGE/static/js/453.2cd0751c.chunk.js",
+    "index.html": "/SIGN-BRIDGE/index.html",
+    "main.e6c13ad2.css.map": "/SIGN-BRIDGE/static/css/main.e6c13ad2.css.map",
+    "main.34a90e49.js.map": "/SIGN-BRIDGE/static/js/main.34a90e49.js.map",
+    "453.2cd0751c.chunk.js.map": "/SIGN-BRIDGE/static/js/453.2cd0751c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.09ccc323.js"
+    "static/js/main.34a90e49.js"
   ]
 }
